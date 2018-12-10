@@ -1,7 +1,5 @@
 This repository contains dataset for the AAAI 2019 paper "Towards Personalized Review Summarization via User-aware Sequence Network".
 
-## Get the dataset
-
 Download our dataset from [here](https://pan.baidu.com/s/1jM8DfAnfyRgdwi47uJz8Xg) with password "nsat".
 
 train.txt, test.txt, dev.txt represent training set, testing set and development set. Each line in each file is a sample. Each line makes up of 4 elements, which are split by "\t\t". Element 1 is the user ID, element 2 is the overall rating (which is not used in this paper), element 3 is the review content and element 4 is the summary of the review. 
