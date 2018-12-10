@@ -1,4 +1,17 @@
 This repository contains dataset for the AAAI 2019 paper "Towards Personalized Review Summarization via User-aware Sequence Network".
 
-Download our dataset from https://pan.baidu.com/s/1jM8DfAnfyRgdwi47uJz8Xg with password "nsat".
+## Get the dataset
 
+Download our dataset from [here](https://pan.baidu.com/s/1jM8DfAnfyRgdwi47uJz8Xg) with password "nsat".
+
+train.txt, test.txt, dev.txt represent training set, testing set and development set. Each line in each file is a sample. Each line makes up of 4 elements, which are split by "\t\t". Element 1 is the user ID, element 2 is the overall rating (which is not used in this paper), element 3 is the review content and element 4 is the summary of the review. 
+
+For example, the first line in test.txt is "091E14185DDFFAB23D5AA886EB57FC20		NULL		the crawford is a strange hotel .<sssss> it is a trendy boutique hotel in the union station .<sssss> they only have a front desk and then their rooms - no lounge , no business center , no nothing .<sssss> the rooms are new and a bit trendy , somewhat small .<sssss> good beds .<sssss> good a/c .<sssss> nice bathroom with all the amenities that you need .<sssss> high-speed wifi that they charge you for .<sssss> i had room 324 and then all guests to the copper lounge passed outside my door , being very loud well after midnight .<sssss> it was extremely noisy .<sssss> it would have been easy for the hotel to have sound-proofed doors for the rooms having this kind of location in the hotel .<sssss> room service woke me up at 08:45 despite that i had put out the `` no disturbance '' sign and that i was checking out the same day.		extremely noisy - avoid this hotel ."
+
+user ID --> 091E14185DDFFAB23D5AA886EB57FC20
+
+overall rating --> NULL
+
+review content --> the crawford is a strange hotel......
+
+summary --> extremely noisy - avoid this hotel .
